@@ -369,7 +369,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <!-- Do not, under any circumstances change this,
                          as it truncates long file names inside the tar.gz! -->
-                    <tarLongFileMode>gnu</tarLongFileMode>
+                    <tarLongFileMode>posix</tarLongFileMode>
                 </configuration>
             </plugin>
         </plugins>
